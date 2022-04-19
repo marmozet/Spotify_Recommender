@@ -1,0 +1,10 @@
+numpy
+pandas
+seaborn
+plotly.express
+matplotlib
+sklearn
+scipy
+ipykernel
+yellowbrick
+spotipy
