@@ -3,8 +3,9 @@ pandas
 seaborn
 plotly.express
 matplotlib
-sklearn
+scikit-learn
 scipy
-ipykernel
+jupyterlab
 yellowbrick
 spotipy
+pysqlite3
