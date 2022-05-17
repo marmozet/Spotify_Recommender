@@ -1,0 +1,13 @@
+jupyterlab
+numpy
+pandas
+seaborn
+plotly.express
+matplotlib
+scikit-learn
+scipy
+yellowbrick
+spotipy
+pyspark
+pyarrow
+mlflow
