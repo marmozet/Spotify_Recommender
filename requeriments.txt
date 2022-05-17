@@ -1,11 +1,13 @@
+jupyterlab
 numpy
 pandas
 seaborn
 plotly.express
 matplotlib
-scikit-learn
+sklearn
 scipy
-jupyterlab
 yellowbrick
 spotipy
-pysqlite3
+pyspark
+pyarrow
+mlflow
