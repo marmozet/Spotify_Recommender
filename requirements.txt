@@ -11,3 +11,5 @@ spotipy
 pyspark
 pyarrow
 mlflow
+kaleido
+discord
