@@ -1,25 +1,15 @@
 import numpy as np
 import pandas as pd
-import os
-import seaborn as sns
-import plotly.express as px 
-import matplotlib.pyplot as plt
-
-
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.decomposition import PCA
-from sklearn.metrics import euclidean_distances
 from scipy.spatial.distance import cdist
-
 from yellowbrick.target import FeatureCorrelation
-
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from collections import defaultdict
 import json
-
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -88,11 +78,10 @@ for i in range(n_c):
 
 
 
+# Insert spotify api tokens here
 
-
-
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="62cfe79d83ef43c69a7ba63f9f5debda",
-                                                           client_secret="88e6707695634f04a75301fcc77d7789"))
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="Insert client_id here",
+                                                           client_secret="Insert client_secret here"))
 
 s = pd.DataFrame()
 def find_song(name):
@@ -248,148 +237,4 @@ async def on_message(message):
 
 
 client.run(TOKEN)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
